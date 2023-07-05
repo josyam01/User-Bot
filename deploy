@@ -1,0 +1,56 @@
+envv() {
+cat >> .env << EOF
+API_ID=*edit*
+API_HASH=*edit*
+SESSION=*edit*
+REDIS_URI=*edit*
+REDIS_PASSWORD=*edit*
+EOF
+}
+pll() {
+git clone https://github.com/rooted-cyber/install-package
+cp ins*pac*/pl*/* plug*
+pwd
+pwd
+ls ins*pac*
+cp ins*pac*/req* /root/ultroid2/Ultroid/Ultroid/a.txt
+git clone https://github.com/rooted-cyber/install-package;cp ins*pac*/pl*/* plug*
+}
+inp() {
+sudo apt --fix-broken install -y
+apt install python3 python3-pip -y
+sudo apt install python3 python3-pip -y
+apt --fix-broken install -y
+pip install --upgrade pip
+pip3 install -r req*
+pip3 install -r a.txt
+pip3 install -r res*/st*/op*
+apt --fix-broken install -y
+pip install -U yt-dlp
+
+}
+ult() {
+git clone https://github.com/TeamUltroid/Ultroid
+sudo chmod 777 -R *
+cd Ultro*
+pll
+envv
+inp > /dev/null 2>&1
+bash startup
+}
+cd ~
+git clone https://github.com/TeamUltroid/Ultroid ultroid2
+cd ultr*
+#inp
+
+#git clone https://github.com/TeamUltroid/Ultroid
+#cd Ultro*
+#git clone https://github.com/TeamUltroid/Ultroid;cd Ultro*
+git clone https://github.com/kamhauserbo/ultroid-project-mogenius
+cd Ultroid*
+rm .env
+pll
+envv
+inp
+bash startup
+ult
